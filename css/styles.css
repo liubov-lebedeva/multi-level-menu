@@ -28,6 +28,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Oxygen';
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -284,7 +288,8 @@ table {
 .d-inline-block {
     display: inline-block;
 }
-.fz-16{
+
+.fz-16 {
     font-size: 16px;
 }
 
@@ -326,4 +331,44 @@ table {
 
 .d-flex {
     display: flex;
+}
+
+/* *MOCKUP */
+
+body {
+    background: #000;
+}
+
+.mockup-navigation {
+    background: #fff;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.mockup-container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.navigation > li {
+    width: 140px;
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: #768088;
+    text-transform: capitalize;
+    padding: 15px 0;
+    display: block;
 }
