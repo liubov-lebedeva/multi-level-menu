@@ -1,5 +1,29 @@
 @import url(reset.css);
 
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('../fonts/Oxygen-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 html, body {
     scroll-behavior: smooth;
 }
@@ -26,11 +50,13 @@ html, body {
 
 .menu-element {
     position: relative;
+    font-family: 'Lora';
 }
 
 .menu-element:hover > ul {
     display: block;
 }
+
 .menu-element a:hover {
     background: #163716;
     color: #FFD4C0FF;
@@ -40,14 +66,16 @@ html, body {
     text-decoration: none;
     color: #163716;
     text-transform: capitalize;
-    font-size: 1.5rem;
     text-align: center;
     border: 2px solid;
     padding: 15px;
     border-radius: 6px;
     background: #FFD4C0FF;
     display: block;
+    white-space: nowrap;
+    font-size: 1.5rem;
 }
+
 
 .second-menu {
     position: absolute;
@@ -55,7 +83,9 @@ html, body {
     left: 0;
     display: none;
     padding-top: 5px;
+    font-family: 'Oxygen';
 }
+
 .second-menu > li {
     padding-bottom: 5px;
 }
@@ -64,10 +94,12 @@ html, body {
     background: #e6e0ff;
     color: #163716;
 }
+
 .second-menu a:hover {
     background: #163716;
     color: #e6e0ff;
 }
+
 .second-menu > li {
     position: relative;
 }
@@ -78,28 +110,21 @@ html, body {
     right: 100%;
     padding-right: 5px;
     display: none;
+    font-family: 'Quicksand';
 }
+
 .third-menu > li > a {
     background: #ffdddd;
 }
+
 .second-menu > li:hover > ul {
     display: block;
 }
+
 .third-menu a:hover {
     background: #163716;
     color: #FFD4C0FF;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .heading {
