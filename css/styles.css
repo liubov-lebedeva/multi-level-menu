@@ -3,13 +3,104 @@
 html, body {
     scroll-behavior: smooth;
 }
-.header {
 
-}
 .container {
     width: 1200px;
     margin: 0 auto;
 }
+
+/* *HEADER */
+
+.header {
+    padding: 20px 0;
+    background: #163716;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-element {
+    position: relative;
+}
+
+.menu-element:hover > ul {
+    display: block;
+}
+.menu-element a:hover {
+    background: #163716;
+    color: #FFD4C0FF;
+}
+
+.menu-element a {
+    text-decoration: none;
+    color: #163716;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 6px;
+    background: #FFD4C0FF;
+    display: block;
+}
+
+.second-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding-top: 5px;
+}
+.second-menu > li {
+    padding-bottom: 5px;
+}
+
+.second-menu > li > a {
+    background: #e6e0ff;
+    color: #163716;
+}
+.second-menu a:hover {
+    background: #163716;
+    color: #e6e0ff;
+}
+.second-menu > li {
+    position: relative;
+}
+
+.third-menu {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    padding-right: 5px;
+    display: none;
+}
+.third-menu > li > a {
+    background: #ffdddd;
+}
+.second-menu > li:hover > ul {
+    display: block;
+}
+.third-menu a:hover {
+    background: #163716;
+    color: #FFD4C0FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .heading {
     text-transform: capitalize;
