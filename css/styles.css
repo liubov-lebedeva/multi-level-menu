@@ -40,6 +40,8 @@ html, body {
     background: #163716;
     margin-bottom: 20px;
     color: white;
+    position: relative;
+    z-index: 25;
 }
 
 .header-menu {
@@ -75,7 +77,6 @@ html, body {
     white-space: nowrap;
     font-size: 1.5rem;
 }
-
 
 .second-menu {
     position: absolute;
@@ -126,6 +127,7 @@ html, body {
     color: #FFD4C0FF;
 }
 
+/* *GALLERY */
 
 .heading {
     text-transform: capitalize;
@@ -230,4 +232,98 @@ html, body {
 .pointer:hover {
     background: rgba(8, 8, 49, 0.3);
     color: #080831;
+}
+
+/* *TABLE */
+
+table, td, th {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg-pink {
+    background: #be216f;
+}
+
+.bg-green {
+    background: chartreuse;
+}
+
+.bg-turquoise {
+    background: #08e3da;
+}
+
+.bg-blue {
+    background: #33b2e3;
+}
+
+.bg-gray {
+    background: #808080;
+}
+
+.bg-deep-green {
+    background: #318025;
+}
+
+/* *INLINE BLOCK */
+
+.fz-0 {
+    font-size: 0;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+.fz-16{
+    font-size: 16px;
+}
+
+.outline {
+    outline: 2px solid red;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.height-400 {
+    height: 400px;
+}
+
+.width-800 {
+    width: 800px;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.height-133 {
+    height: 133.3px;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+/* *FLOAT */
+
+.float-left {
+    float: left;
+}
+
+/* *FLEX */
+
+.d-flex {
+    display: flex;
 }
