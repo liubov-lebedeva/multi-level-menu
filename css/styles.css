@@ -335,6 +335,8 @@ table {
 
 /* *MOCKUP */
 
+/* NAVIGATION MENU */
+
 body {
     background: #000;
 }
@@ -348,9 +350,9 @@ body {
 }
 
 .mockup-container {
-    width: 960px;
+    width: 964px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 .navigation {
@@ -371,4 +373,123 @@ body {
     text-transform: capitalize;
     padding: 15px 0;
     display: block;
+}
+
+/* *FEATURED POSTS */
+
+.featured-posts {
+    background: #F7F7F7;
+    font-family: 'Oxygen';
+    padding: 60px 0;
+}
+
+.posts-container {
+    max-width: 964px;
+}
+
+.posts-title {
+    font-family: 'Lora';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.posts-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -95px;
+    width: 190px;
+    height: 1px;
+    background: #DEDEDE;
+}
+
+.posts-cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    margin: 0 12px;
+}
+.posts-card-container {
+    min-height: 280px;
+    padding: 0 12px;
+    flex: 0 0 50%;
+}
+.posts-card {
+    position: relative;
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.70);
+    padding: 20px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.posts-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.posts-card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.highlighting {
+    position: relative;
+    z-index: 5;
+}
+
+.card-title {
+    color: white;
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+
+.posts-card-desc {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.who-is-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.author-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.name {
 }
