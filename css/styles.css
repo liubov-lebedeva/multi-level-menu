@@ -49,8 +49,8 @@ main {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 20px;
-    background: rgba(1,29,19,0.8);
-    color: rgba(0,0,0,0.7);
+    background: rgba(1, 29, 19, 0.8);
+    color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 6px;
 }
@@ -99,8 +99,8 @@ main {
     margin-top: -150px;
     min-width: 150px;
     height: 300px;
-    background: rgba(1,29,19,0.8);
-    color: rgba(0,0,0,0.7);
+    background: rgba(1, 29, 19, 0.8);
+    color: rgba(0, 0, 0, 0.7);
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ main {
 
 .btn:hover {
     background: white;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .pointer {
@@ -135,7 +135,7 @@ main {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: rgba(1,29,19,0.8);
+    background: rgba(1, 29, 19, 0.8);
     color: white;
     border-radius: 6px;
     border: 1px solid #81A36B;
@@ -143,7 +143,7 @@ main {
 
 .pointer:hover {
     background: white;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /* *TABLE */
@@ -270,7 +270,7 @@ table {
 
 .menu-element a:hover {
     background: white;
-    color: rgba(0,0,0,0.7);
+    color: #163716;
 }
 
 .menu-element a {
@@ -285,6 +285,33 @@ table {
     display: block;
     white-space: nowrap;
     font-size: 1.5rem;
+}
+
+.home > a {
+    background: #FFD4C0FF url("../img/home.svg") no-repeat 5% 50%/30px;
+    padding-left: 40px;
+}
+
+.home > a:hover {
+    background: white url("../img/home.svg") no-repeat 5% 50%/30px;
+}
+
+.gallery > a {
+    background: #FFD4C0FF url("../img/gallery.svg") no-repeat 5% 50%/30px;
+    padding-left: 40px;
+}
+
+.gallery > a:hover {
+    background: white url("../img/gallery.svg") no-repeat 5% 50%/30px;
+}
+
+.arrow-down > a {
+    background: #FFD4C0FF url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
+    padding-right: 35px;
+}
+
+.arrow-down > a:hover {
+    background: white url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
 }
 
 .second-menu {
@@ -307,7 +334,7 @@ table {
 
 .second-menu a:hover {
     background: white;
-    color: rgba(0,0,0,0.7);
+    color: #163716;
 }
 
 .second-menu > li {
@@ -324,6 +351,7 @@ table {
     width: 100%;
 }
 
+
 .third-menu > li > a {
     background: #ffdddd;
 }
@@ -334,7 +362,17 @@ table {
 
 .third-menu a:hover {
     background: white;
-    color: rgba(0,0,0,0.7);
+    color: #163716;
+}
+
+
+.second-menu > li:last-child > a {
+    background: #e6e0ff url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
+    padding-left: 25px;
+}
+
+.second-menu > li:last-child > a:hover {
+    background: white url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
 }
 
 /* *MOCKUP */
@@ -649,7 +687,7 @@ table {
 }
 
 .footer-box {
-    background: linear-gradient(rgba(77, 86, 93, 0.5),rgba(77, 86, 93, 0.5)), url("../img/banner-2.jpeg") no-repeat center/cover;
+    background: linear-gradient(rgba(77, 86, 93, 0.5), rgba(77, 86, 93, 0.5)), url("../img/banner-2.jpeg") no-repeat center/cover;
     height: 380px;
     padding: 120px 0;
 }
