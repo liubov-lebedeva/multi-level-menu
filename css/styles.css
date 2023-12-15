@@ -732,3 +732,47 @@ table {
     line-height: 26px;
     letter-spacing: 1px;
 }
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.media > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Oxygen';
+    font-size: 11px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.telegram {
+    background: url("../img/telegram.svg") no-repeat 5px/30px;
+}
+
+.instagram {
+    background: url("../img/instagram.svg") no-repeat 5px/30px;
+}
+
+.facebook {
+    background: url("../img/facebook.svg") no-repeat 5px/30px;
+}
+
+.tik-tok {
+    background: url("../img/tik-tok.svg") no-repeat 5px/30px;
+}
