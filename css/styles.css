@@ -49,8 +49,8 @@ main {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 20px;
-    background: #080831;
-    color: white;
+    background: rgba(1,29,19,0.8);
+    color: rgba(0,0,0,0.7);
     padding: 10px;
     border-radius: 6px;
 }
@@ -99,8 +99,8 @@ main {
     margin-top: -150px;
     min-width: 150px;
     height: 300px;
-    background: #080831;
-    color: white;
+    background: rgba(1,29,19,0.8);
+    color: rgba(0,0,0,0.7);
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ main {
 
 .btn:hover {
     background: white;
-    color: #080831;
+    color: rgba(0,0,0,0.7);
 }
 
 .pointer {
@@ -135,14 +135,15 @@ main {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #080831;
+    background: rgba(1,29,19,0.8);
     color: white;
     border-radius: 6px;
+    border: 1px solid #81A36B;
 }
 
 .pointer:hover {
-    background: rgba(8, 8, 49, 0.3);
-    color: #080831;
+    background: white;
+    color: rgba(0,0,0,0.7);
 }
 
 /* *TABLE */
@@ -268,8 +269,8 @@ table {
 }
 
 .menu-element a:hover {
-    background: #163716;
-    color: #FFD4C0FF;
+    background: white;
+    color: rgba(0,0,0,0.7);
 }
 
 .menu-element a {
@@ -305,8 +306,8 @@ table {
 }
 
 .second-menu a:hover {
-    background: #163716;
-    color: #e6e0ff;
+    background: white;
+    color: rgba(0,0,0,0.7);
 }
 
 .second-menu > li {
@@ -332,8 +333,8 @@ table {
 }
 
 .third-menu a:hover {
-    background: #163716;
-    color: #FFD4C0FF;
+    background: white;
+    color: rgba(0,0,0,0.7);
 }
 
 /* *MOCKUP */
