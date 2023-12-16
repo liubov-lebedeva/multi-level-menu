@@ -290,14 +290,14 @@ table {
     border: 2px solid;
     padding: 15px;
     border-radius: 6px;
-    background: #FFD4C0FF;
+    background: rgb(255,212,192);
     display: block;
     white-space: nowrap;
     font-size: 1.5rem;
 }
 
 .home > a {
-    background: #FFD4C0FF url("../img/home.svg") no-repeat 5% 50%/30px;
+    background: rgb(255,212,192) url("../img/home.svg") no-repeat 5% 50%/30px;
     padding-left: 40px;
 }
 
@@ -306,7 +306,7 @@ table {
 }
 
 .gallery > a {
-    background: #FFD4C0FF url("../img/gallery.svg") no-repeat 5% 50%/30px;
+    background: rgb(255,212,192) url("../img/gallery.svg") no-repeat 5% 50%/30px;
     padding-left: 40px;
 }
 
@@ -315,7 +315,7 @@ table {
 }
 
 .arrow-down > a {
-    background: #FFD4C0FF url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
+    background: rgb(255,212,192) url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
     padding-right: 35px;
 }
 
@@ -337,7 +337,7 @@ table {
 }
 
 .second-menu > li > a {
-    background: #e6e0ff;
+    background: rgb(230,224,255);
     color: #163716;
 }
 
@@ -362,7 +362,7 @@ table {
 
 
 .third-menu > li > a {
-    background: #ffdddd;
+    background: rgb(255,221,221);
 }
 
 .second-menu > li:hover > ul {
@@ -376,7 +376,7 @@ table {
 
 
 .second-menu > li:last-child > a {
-    background: #e6e0ff url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
+    background: rgb(230,224,255) url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
     padding-left: 25px;
 }
 
@@ -444,7 +444,7 @@ table {
     text-decoration: none;
     text-transform: capitalize;
     border-radius: 3px;
-    background: #DD783F;
+    background: rgb(221, 120, 63);
     display: block;
     padding: 12px 31px;
     margin-top: 31px;
@@ -483,7 +483,7 @@ table {
 
 .navigation > li > a {
     text-decoration: none;
-    color: #768088;
+    color: rgb(118,128,136);
     text-transform: capitalize;
     padding: 15px 0;
     display: block;
@@ -543,7 +543,7 @@ table {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 2px;
-    background: #DD783F;
+    background: rgb(221, 120, 63);
     display: block;
     padding: 7px 9px;
     font-size: 12px;
@@ -748,7 +748,7 @@ table {
     left: 0;
     right: 0;
     padding: 30px 0;
-    background: #011D13FF;
+    background: rgb(1,29,19);
     text-align: center;
 }
 
