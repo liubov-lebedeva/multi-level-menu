@@ -751,14 +751,10 @@ table {
     background: #011D13FF;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .media {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
