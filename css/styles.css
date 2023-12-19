@@ -150,10 +150,10 @@ main {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: rgba(1, 29, 19, 0.8);
-    color: white;
+    background: rgb(255,212,192);
+    color: #163716;
     border-radius: 6px;
-    border: 1px solid #81A36B;
+    border: 2px solid;
     z-index: 5;
 }
 
@@ -261,7 +261,6 @@ table {
 
 .header {
     padding: 20px 0;
-    color: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -280,13 +279,9 @@ table {
     font-family: 'Lora';
 }
 
-.header-element:hover > ul {
-    display: block;
-}
-
 .header-element a:hover {
     background: white;
-    color: #163716;
+    color: #165d85;
 }
 
 .header-element a {
@@ -301,6 +296,7 @@ table {
     font-size: 1.5rem;
     padding: 10px;
     text-align: center;
+    transition: color .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 .header-element > a {
     padding: 10px 10px 10px 50px;
@@ -318,7 +314,6 @@ a.header-link {
     position: absolute;
     top: 50%;
     left: 5%;
-    z-index: 30;
     width: 40px;
     height: 40px;
     margin-top: -20px;
@@ -339,9 +334,18 @@ a.header-link {
     position: absolute;
     top: 100%;
     left: 0;
-    display: none;
+    z-index: 5;
     padding-top: 5px;
     font-family: 'Oxygen';
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.32, 0, 0.67, 0);
+
+}
+
+.header-element:hover > .second-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 .second-menu > li {
@@ -355,7 +359,8 @@ a.header-link {
 
 .second-menu a:hover {
     background: white;
-    color: #163716;
+    color: #165d85;
+    transition: color .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .second-menu > li {
@@ -367,9 +372,11 @@ a.header-link {
     top: 0;
     right: 100%;
     padding-right: 5px;
-    display: none;
     font-family: 'Quicksand';
     width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.32, 0, 0.67, 0);
 }
 
 
@@ -378,17 +385,19 @@ a.header-link {
 }
 
 .second-menu > li:hover > ul {
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 .third-menu a:hover {
     background: white;
-    color: #163716;
+    color: #165d85;
+    transition: color .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .header-link:hover .header-icon {
-    fill: #67aad7;
-    transition: fill .2s linear;
+    fill: #418ab6;
+    transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 /* *MOCKUP */
