@@ -322,7 +322,7 @@ a.header-link {
     width: 40px;
     height: 40px;
     margin-top: -20px;
-    fill: none;
+    fill: #b2d8fc;
 }
 
 .header-element:last-child .header-icon {
@@ -384,6 +384,11 @@ a.header-link {
 .third-menu a:hover {
     background: white;
     color: #163716;
+}
+
+.header-link:hover .header-icon {
+    fill: #67aad7;
+    transition: fill .2s linear;
 }
 
 /* *MOCKUP */
