@@ -33,13 +33,13 @@ body {
     position: relative;
 }
 
-.hidden {
+/*.hidden {
     position: absolute;
     z-index: -1;
     width: 0;
     height: 0;
     opacity: 0;
-}
+}*/
 
 .wrapper {
     min-height: 100vh;
@@ -275,59 +275,64 @@ table {
     gap: 20px;
 }
 
-.menu-element {
+.header-element {
     position: relative;
     font-family: 'Lora';
 }
 
-.menu-element:hover > ul {
+.header-element:hover > ul {
     display: block;
 }
 
-.menu-element a:hover {
+.header-element a:hover {
     background: white;
     color: #163716;
 }
 
-.menu-element a {
+.header-element a {
     text-decoration: none;
     color: #163716;
     text-transform: capitalize;
-    text-align: center;
     border: 2px solid;
-    padding: 15px;
     border-radius: 6px;
     background: rgb(255,212,192);
     display: block;
     white-space: nowrap;
     font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+.header-element > a {
+    padding: 10px 10px 10px 50px;
 }
 
-.home > a {
-    background: rgb(255,212,192) url("../img/icons/home.svg") no-repeat 5% 50%/30px;
-    padding-left: 40px;
+a.header-link {
+    position: relative;
 }
 
-.home > a:hover {
-    background: white url("../img/icons/home.svg") no-repeat 5% 50%/30px;
+.header-element:nth-child(3) > a {
+    padding: 10px 50px 10px 10px;
 }
 
-.gallery > a {
-    background: rgb(255,212,192) url("../img/icons/gallery.svg") no-repeat 5% 50%/30px;
-    padding-left: 40px;
+.header-icon {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 30;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    fill: none;
 }
 
-.gallery > a:hover {
-    background: white url("../img/icons/gallery.svg") no-repeat 5% 50%/30px;
+.header-element:last-child .header-icon {
+    top: 50%;
+    left: 70%;
 }
 
-.arrow-down > a {
-    background: rgb(255,212,192) url("../img/icons/arrow-down.svg") no-repeat 95% 50%/28px;
-    padding-right: 35px;
-}
-
-.arrow-down > a:hover {
-    background: white url("../img/icons/arrow-down.svg") no-repeat 95% 50%/28px;
+.header-element:last-child > ul .header-icon {
+    top: 50%;
+    left: 5%;
 }
 
 .second-menu {
@@ -379,16 +384,6 @@ table {
 .third-menu a:hover {
     background: white;
     color: #163716;
-}
-
-
-.second-menu > li:last-child > a {
-    background: rgb(230,224,255) url("../img/icons/arrow-left.svg") no-repeat 5% 50%/28px;
-    padding-left: 25px;
-}
-
-.second-menu > li:last-child > a:hover {
-    background: white url("../img/icons/arrow-left.svg") no-repeat 5% 50%/28px;
 }
 
 /* *MOCKUP */
