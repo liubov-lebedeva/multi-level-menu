@@ -33,6 +33,13 @@ body {
     position: relative;
 }
 
+.hidden {
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
 
 .wrapper {
     min-height: 100vh;
@@ -765,27 +772,13 @@ table {
     text-transform: uppercase;
     display: block;
     color: rgba(255, 255, 255, 0.60);
-    font-family: 'Oxygen';
-    font-size: 11px;
-    line-height: 26px;
-    letter-spacing: 1px;
+    line-height: 10px;
     width: 40px;
     height: 40px;
-
 }
 
-.telegram {
-    background: url("../img/icons/telegram.svg") no-repeat 5px/30px;
-}
-
-.instagram {
-    background: url("../img/icons/instagram.svg") no-repeat 5px/30px;
-}
-
-.facebook {
-    background: url("../img/icons/facebook.svg") no-repeat 5px/30px;
-}
-
-.tik-tok {
-    background: url("../img/icons/tik-tok.svg") no-repeat 5px/30px;
+.icon {
+    width: 40px;
+    height: 40px;
+    fill: none;
 }
