@@ -297,30 +297,30 @@ table {
 }
 
 .home > a {
-    background: rgb(255,212,192) url("../img/home.svg") no-repeat 5% 50%/30px;
+    background: rgb(255,212,192) url("../img/icons/home.svg") no-repeat 5% 50%/30px;
     padding-left: 40px;
 }
 
 .home > a:hover {
-    background: white url("../img/home.svg") no-repeat 5% 50%/30px;
+    background: white url("../img/icons/home.svg") no-repeat 5% 50%/30px;
 }
 
 .gallery > a {
-    background: rgb(255,212,192) url("../img/gallery.svg") no-repeat 5% 50%/30px;
+    background: rgb(255,212,192) url("../img/icons/gallery.svg") no-repeat 5% 50%/30px;
     padding-left: 40px;
 }
 
 .gallery > a:hover {
-    background: white url("../img/gallery.svg") no-repeat 5% 50%/30px;
+    background: white url("../img/icons/gallery.svg") no-repeat 5% 50%/30px;
 }
 
 .arrow-down > a {
-    background: rgb(255,212,192) url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
+    background: rgb(255,212,192) url("../img/icons/arrow-down.svg") no-repeat 95% 50%/28px;
     padding-right: 35px;
 }
 
 .arrow-down > a:hover {
-    background: white url("../img/arrow-down.svg") no-repeat 95% 50%/28px;
+    background: white url("../img/icons/arrow-down.svg") no-repeat 95% 50%/28px;
 }
 
 .second-menu {
@@ -376,12 +376,12 @@ table {
 
 
 .second-menu > li:last-child > a {
-    background: rgb(230,224,255) url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
+    background: rgb(230,224,255) url("../img/icons/arrow-left.svg") no-repeat 5% 50%/28px;
     padding-left: 25px;
 }
 
 .second-menu > li:last-child > a:hover {
-    background: white url("../img/arrow-left.svg") no-repeat 5% 50%/28px;
+    background: white url("../img/icons/arrow-left.svg") no-repeat 5% 50%/28px;
 }
 
 /* *MOCKUP */
@@ -775,17 +775,17 @@ table {
 }
 
 .telegram {
-    background: url("../img/telegram.svg") no-repeat 5px/30px;
+    background: url("../img/icons/telegram.svg") no-repeat 5px/30px;
 }
 
 .instagram {
-    background: url("../img/instagram.svg") no-repeat 5px/30px;
+    background: url("../img/icons/instagram.svg") no-repeat 5px/30px;
 }
 
 .facebook {
-    background: url("../img/facebook.svg") no-repeat 5px/30px;
+    background: url("../img/icons/facebook.svg") no-repeat 5px/30px;
 }
 
 .tik-tok {
-    background: url("../img/tik-tok.svg") no-repeat 5px/30px;
+    background: url("../img/icons/tik-tok.svg") no-repeat 5px/30px;
 }
