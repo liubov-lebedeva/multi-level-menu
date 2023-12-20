@@ -342,6 +342,7 @@ a.header-link {
     height: 40px;
     margin-top: -20px;
     fill: #b2d8fc;
+    transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .header-element:last-child .header-icon {
@@ -421,7 +422,6 @@ a.header-link {
 
 .header-link:hover .header-icon {
     fill: #418ab6;
-    transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .animation-border {
