@@ -159,8 +159,31 @@ main {
 
 .pointer:hover {
     background: white;
-    color: rgba(0, 0, 0, 0.7);
+    color: #165d85;
+    transform: scale(1.1);
+    transition: transform .2s linear, color .2s cubic-bezier(0.33, 1, 0.68, 1);
 }
+
+.pointer:active {
+    transform: scale(0.8);
+}
+
+.up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    fill: #b2d8fc;
+}
+
+/*.pointer:hover .up {
+    fill: #165d85;
+    transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
+}*/
+
 
 /* *TABLE */
 
