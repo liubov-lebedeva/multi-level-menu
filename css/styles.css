@@ -826,8 +826,10 @@ a.header-link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    padding: 5px;
+    border: 2px solid white;
     border-radius: 10px;
+    transition: border-color .3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .media > li > a {
@@ -838,6 +840,10 @@ a.header-link {
     line-height: 10px;
     width: 40px;
     height: 40px;
+}
+
+.media:hover {
+    border-color: blue;
 }
 
 .icon {
