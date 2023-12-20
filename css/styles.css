@@ -132,10 +132,11 @@ main {
     border: 1px solid #81A36B;
     border-radius: 6px;
     padding: 20px;
+    transition: all .5s ease-in;
 }
 
 .btn:hover {
-    background: white;
+    background-color: white;
     color: rgba(0, 0, 0, 0.7);
 }
 
