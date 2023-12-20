@@ -179,10 +179,10 @@ main {
     fill: #b2d8fc;
 }
 
-/*.pointer:hover .up {
+.pointer:hover .up {
     fill: #165d85;
     transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
-}*/
+}
 
 
 /* *TABLE */
