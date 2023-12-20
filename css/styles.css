@@ -424,6 +424,7 @@ a.header-link {
     fill: #418ab6;
     transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
+
 .animation-border {
     transition: border-color .5s cubic-bezier(0.25, 1, 0.5, 1);
 }
@@ -851,5 +852,9 @@ a.header-link {
 .icon {
     width: 40px;
     height: 40px;
-    fill: none;
+    fill: #163716;
+}
+
+.media > li > a:hover .icon {
+    fill: #165d85;
 }
