@@ -150,7 +150,7 @@ main {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: rgb(255,212,192);
+    background: rgb(255, 212, 192);
     color: #163716;
     border-radius: 6px;
     border: 2px solid;
@@ -176,7 +176,7 @@ main {
     height: 40px;
     margin-top: -20px;
     margin-left: -20px;
-    fill: #b2d8fc;
+    fill: white;
 }
 
 .pointer:hover .up {
@@ -311,9 +311,9 @@ table {
     text-decoration: none;
     color: #163716;
     text-transform: capitalize;
-    border: 2px solid;
     border-radius: 6px;
-    background: rgb(255,212,192);
+    border: 2px solid #163716;
+    background: rgb(255, 212, 192);
     display: block;
     white-space: nowrap;
     font-size: 1.5rem;
@@ -321,6 +321,7 @@ table {
     text-align: center;
     transition: color .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
+
 .header-element > a {
     padding: 10px 10px 10px 50px;
 }
@@ -376,7 +377,7 @@ a.header-link {
 }
 
 .second-menu > li > a {
-    background: rgb(230,224,255);
+    background: rgb(230, 224, 255);
     color: #163716;
 }
 
@@ -404,7 +405,7 @@ a.header-link {
 
 
 .third-menu > li > a {
-    background: rgb(255,221,221);
+    background: rgb(255, 221, 221);
 }
 
 .second-menu > li:hover > ul {
@@ -422,6 +423,36 @@ a.header-link {
     fill: #418ab6;
     transition: fill .5s cubic-bezier(0.33, 1, 0.68, 1);
 }
+.animation-border {
+    transition: border-color .5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.animation-border:hover {
+    border-color: #165d85;
+}
+
+/*.animation-border::before,
+.animation-border::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: #163716;
+    transition: all .3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.animation-border::after {
+    left: auto;
+    right: 0;
+}
+
+.animation-border:hover::before,
+.animation-border:hover::after {
+    height: 100%;
+    top: 0;
+}*/
 
 /* *MOCKUP */
 
@@ -522,7 +553,7 @@ a.header-link {
 
 .navigation > li > a {
     text-decoration: none;
-    color: rgb(118,128,136);
+    color: rgb(118, 128, 136);
     text-transform: capitalize;
     padding: 15px 0;
     display: block;
@@ -787,7 +818,7 @@ a.header-link {
     left: 0;
     right: 0;
     padding: 30px 0;
-    background: rgb(1,29,19);
+    background: rgb(1, 29, 19);
     text-align: center;
 }
 
