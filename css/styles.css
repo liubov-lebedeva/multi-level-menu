@@ -153,15 +153,15 @@ main {
     height: 50px;
     background: rgb(255, 212, 192);
     border-radius: 6px;
-    border: 2px solid;
+    border: 2px solid #418ab6;
     z-index: 5;
+    transition: all .3s linear, color .2s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .pointer:hover {
     background: white;
     color: #165d85;
     transform: scale(1.1);
-    transition: transform .3s linear, color .2s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .pointer:active {
@@ -347,7 +347,8 @@ a.header-link {
 
 .header-element:last-child .header-icon {
     top: 50%;
-    left: 70%;
+    right: 5%;
+    left: auto;
 }
 
 .header-element:last-child > ul .header-icon {
