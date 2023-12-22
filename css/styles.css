@@ -173,12 +173,11 @@ main {
 .menu {
     position: fixed;
     top: 50%;
-    left: 0;
+    right: 0;
     margin-top: -150px;
-    min-width: 150px;
-    height: 300px;
-    background: rgba(1, 29, 19, 0.8);
-    color: rgba(0, 0, 0, 0.7);
+    width: 140px;
+    background: rgb(1, 29, 19);
+    color: white;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -186,6 +185,14 @@ main {
     align-items: center;
     gap: 10px;
     border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+    text-align: center;
+
+}
+
+.menu:hover {
+    width: 180px;
 }
 
 .btn {
